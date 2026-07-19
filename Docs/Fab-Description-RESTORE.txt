@@ -1,0 +1,30 @@
+LootForge — weighted loot & drop tables, done right. Rarity tiers, conditional drops, nested tables and pity timers — data-driven, Blueprint-first, and deterministic-seedable.
+
+Every RPG, looter-shooter, roguelike and survival game needs weighted loot tables — yet Unreal ships no first-class framework, so teams rebuild the same ad-hoc DataTable-plus-random system every project, usually without rarity tiers, conditional drops, nested tables, guaranteed-drop pity timers, or deterministic seeding.
+
+LootForge is the reusable layer that fixes this: a clean UDataAsset table format, a subsystem that rolls drops (weighted, condition-gated, nested, seedable), and Blueprint nodes that make it a five-minute setup. It decides what drops; your game keeps full control of what an item is and how it's granted — so LootForge drops into any inventory, any genre.
+
+KEY FEATURES
+• Weighted entries — per-entry weight, rarity tier, and min/max quantity range.
+• Rarity tiers — Common to Legendary; filter any result set by minimum rarity.
+• Conditional drops — gate entries behind a Gameplay Tag query matched against a roll context.
+• Nested tables — an entry can roll another table (depth-guarded against cycles).
+• Pity / luck timers — guarantee a minimum rarity after a configurable dry streak.
+• Deterministic seeding — reproducible rolls for replays, tests and server authority.
+• Designer preview — normalized per-entry drop chances for balancing.
+• Blueprint-first — data assets + subsystem + function library; no C++ required.
+• Submission-ready — one clean runtime module, full source, automation tests, no third-party libs.
+
+TECHNICAL DETAILS
+• Engine version: Unreal Engine 5.8
+• Type: C++ Code Plugin (full source included)
+• Modules: LootForge (Runtime)
+• Number of Blueprints: 0 (C++ plugin; example Data Assets in documentation)
+• Number of C++ Classes: data asset (ULootTable), subsystem (ULootForgeSubsystem), Blueprint library, plus entry/result structs and a rarity enum
+• Network Replicated: No (deterministic rolls are seed-reproducible for server authority)
+• Supported platforms: Windows, Mac, Linux
+• Dependencies: engine GameplayTags module (no extra plugin); no third-party libraries
+• Automation tests (LootForge.*) included
+
+Documentation: https://github.com/SimulatedFlow/ue-plugin-LootForge
+Support: simulatedflow@gmail.com
