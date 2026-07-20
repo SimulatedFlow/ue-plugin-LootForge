@@ -1,31 +1,31 @@
 {
-	"FileVersion": 3,
-	"Version": 1,
-	"VersionName": "1.0.0",
-	"EngineVersion": "5.8.0",
-	"FriendlyName": "LootForge — Data-Driven Loot & Drop Table Framework",
-	"Description": "A designer-friendly, data-driven weighted loot and drop-table framework: rarity tiers, conditional drops, nested tables and pity/luck timers, all Blueprint-exposed and deterministic-seedable.",
-	"Category": "Code Plugins",
-	"CreatedBy": "Simulated Flow",
-	"CreatedByURL": "https://github.com/SimulatedFlow",
-	"DocsURL": "https://github.com/SimulatedFlow/ue-plugin-LootForge",
-	"MarketplaceURL": "",
-	"SupportURL": "mailto:simulatedflow@gmail.com",
-	"CanContainContent": true,
-	"IsBetaVersion": false,
-	"IsExperimentalVersion": false,
-	"Installed": false,
-	"Modules": [
-		{
-			"Name": "LootForge",
-			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"PlatformAllowList": [
-				"Win64",
-				"Mac",
-				"Linux"
-			]
-		}
-	],
-	"Plugins": []
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0.0",
+  "EngineVersion": "5.8.0",
+  "FriendlyName": "LootForge — Data-Driven Loot & Drop Table Framework",
+  "Description": "A designer-friendly, data-driven weighted loot and drop-table framework: rarity tiers, conditional drops, nested tables and pity/luck timers, all Blueprint-exposed and deterministic-seedable.",
+  "Category": "Code Plugins",
+  "CreatedBy": "Simulated Flow",
+  "CreatedByURL": "https://github.com/SimulatedFlow",
+  "DocsURL": "https://wiki.teufel-engineering.com/en/LootForge",
+  "MarketplaceURL": "",
+  "SupportURL": "mailto:simulatedflow@gmail.com",
+  "CanContainContent": true,
+  "IsBetaVersion": false,
+  "IsExperimentalVersion": false,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "LootForge",
+      "Type": "Runtime",
+      "LoadingPhase": "Default",
+      "PlatformAllowList": [
+        "Win64",
+        "Mac",
+        "Linux"
+      ]
+    }
+  ],
+  "Plugins": []
 }
