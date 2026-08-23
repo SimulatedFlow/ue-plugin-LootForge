@@ -6,8 +6,8 @@
 
 # LootForge — Data-Driven Loot & Drop Table Framework
 
-**Version:** 1.0.0 • **Engine:** Unreal Engine 5.8 • **Author:** Simulated Flow
-**Support:** simulatedflow@gmail.com • **Category:** Code Plugin
+**Version:** 1.0.0 • **Engine:** Unreal Engine 5.8 • **Author:** Silvan Teufel
+**Support:** teufelsilvan@gmail.com • **Category:** Code Plugin
 
 A designer-friendly, data-driven weighted loot and drop-table framework: rarity tiers, conditional
 drops, nested tables and pity/luck timers — all Blueprint-exposed and deterministic-seedable.
@@ -92,7 +92,7 @@ Automation tests under `LootForge.*` (Session Frontend → Automation, or `Autom
 
 ## 10. Support
 
-- **Support:** simulatedflow@gmail.com
+- **Support:** teufelsilvan@gmail.com
 - **Version:** 1.0.0 (UE 5.8)
 
-*LootForge — © 2026 Simulated Flow. All rights reserved.*
+*LootForge — © 2026 Silvan Teufel. All rights reserved.*

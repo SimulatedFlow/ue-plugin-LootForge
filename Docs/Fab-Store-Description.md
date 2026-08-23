@@ -86,6 +86,6 @@ GameplayTags · C++
 **Supported Target Build Platforms:** Windows, Mac, Linux
 **Supported Engine Versions:** 5.8
 **Documentation:** https://github.com/SimulatedFlow
-**Support:** simulatedflow@gmail.com
+**Support:** teufelsilvan@gmail.com
 
-*LootForge — © 2026 Simulated Flow. All rights reserved.*
+*LootForge — © 2026 Silvan Teufel. All rights reserved.*

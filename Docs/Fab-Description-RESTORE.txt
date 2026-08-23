@@ -27,4 +27,4 @@ TECHNICAL DETAILS
 • Automation tests (LootForge.*) included
 
 Documentation: https://github.com/SimulatedFlow/ue-plugin-LootForge
-Support: simulatedflow@gmail.com
+Support: teufelsilvan@gmail.com
