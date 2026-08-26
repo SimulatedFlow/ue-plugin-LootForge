@@ -41,7 +41,7 @@ control of *what an item is* and how it's granted — so LootForge drops into an
 | **Engine version** | Unreal Engine 5.8 |
 | **Type** | C++ Code Plugin (full source included) |
 | **Modules** | LootForge (Runtime) |
-| **Runtime platforms** | Win64, Mac, Linux |
+| **Runtime platforms** | Win64 |
 | **Build targets** | Development & Shipping |
 | **Dependencies** | Engine `GameplayTags` module (no extra plugin) |
 | **Content** | Blueprint-exposed API; no mandatory content |
@@ -82,8 +82,8 @@ GameplayTags · C++
 **Number of Blueprints:** 0 (C++ plugin; example Data Assets in documentation)
 **Number of C++ Classes:** data asset (`ULootTable`), subsystem (`ULootForgeSubsystem`), Blueprint library, + entry/result structs and a rarity enum
 **Network Replicated:** No (deterministic rolls are seed-reproducible for server authority)
-**Supported Development Platforms:** Windows, Mac, Linux
-**Supported Target Build Platforms:** Windows, Mac, Linux
+**Supported Development Platforms:** Windows
+**Supported Target Build Platforms:** Windows
 **Supported Engine Versions:** 5.8
 **Documentation:** https://github.com/SimulatedFlow
 **Support:** teufelsilvan@gmail.com
