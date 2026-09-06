@@ -1,7 +1,7 @@
 <!--
   LootForge — Wiki documentation (English).
   Paste the body below into the Wiki.js editor at
-  https://github.com/SimulatedFlow
+  https://wiki.teufel-engineering.com/en/LootForge/documentation
 -->
 
 # LootForge — Data-Driven Loot & Drop Table Framework

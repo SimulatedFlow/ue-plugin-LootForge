@@ -85,7 +85,7 @@ GameplayTags · C++
 **Supported Development Platforms:** Windows
 **Supported Target Build Platforms:** Windows
 **Supported Engine Versions:** 5.8
-**Documentation:** https://github.com/SimulatedFlow
+**Documentation:** https://wiki.teufel-engineering.com/en/LootForge/documentation
 **Support:** teufelsilvan@gmail.com
 
 *LootForge — © 2026 Silvan Teufel. All rights reserved.*

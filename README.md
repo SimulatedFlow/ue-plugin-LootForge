@@ -64,10 +64,10 @@ TArray<FLootRollResult> Drops = Loot->RollLoot(BossTable, ContextTags, /*Seed*/ 
 
 ## Documentation & support
 
-Online, free and without an account: <https://github.com/SimulatedFlow/documentation>
+Online, free and without an account: <https://wiki.teufel-engineering.com/en/LootForge/documentation>
 
 - **Full documentation:** `Docs/DOCUMENTATION.md` (hosted at
-  https://github.com/SimulatedFlow)
+  https://wiki.teufel-engineering.com/en/LootForge/documentation)
 - **Support:** teufelsilvan@gmail.com
 - **Version:** 1.0.0 (UE 5.8)
 
